@@ -68,12 +68,12 @@
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
-     <None Include="Assets\Shaders\car\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\shaders\car\DiffuseReflectiveShader.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
-     <None Include="Assets\Shaders\car\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\shaders\car\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
-     <None Include="Assets\Shaders\car\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\shaders\car\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
@@ -119,7 +119,7 @@
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>G:/wamp/www/carGame/unityProject/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/brainiac98/Desktop/Unity Projects/carGame/unityProject/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
