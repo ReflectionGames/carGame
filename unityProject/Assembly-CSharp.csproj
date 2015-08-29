@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ScreenManager.cs" />
      <Compile Include="Assets\Scripts\camera\AbstractTargetFollower.cs" />
      <Compile Include="Assets\Scripts\camera\AutoCam.cs" />
      <Compile Include="Assets\Scripts\camera\FreeLookCam.cs" />
@@ -107,7 +108,6 @@
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
-     <None Include="Assets\DayNightCycle\TOD\shader\SkyboxBlend.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\TutorialAssets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
