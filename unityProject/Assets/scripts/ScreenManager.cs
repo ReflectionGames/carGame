@@ -47,8 +47,9 @@ public class ScreenManager : MonoBehaviour {
 		var newPreviouslySelected = EventSystem.current.currentSelectedGameObject;
 		//Move the Screen to front.
 		anim.transform.SetAsLastSibling();
-		
-		CloseCurrent();
+
+		//close
+		CloseCurrent ();
 		
 		m_PreviouslySelected = newPreviouslySelected;
 		
