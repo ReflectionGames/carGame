@@ -1,15 +1,17 @@
 fileFormatVersion: 2
-guid: 5699dddcce16c4543b95951c4ce0e092
+guid: f72805d865c38b1488b17651e051979f
 labels:
-- Fx
+- BackgroundMusic
+timeCreated: 1441072992
+licenseType: Free
 AudioImporter:
   serializedVersion: 6
   defaultSettings:
-    loadType: 1
+    loadType: 0
     sampleRateSetting: 0
-    sampleRateOverride: 0
-    compressionFormat: 0
-    quality: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
