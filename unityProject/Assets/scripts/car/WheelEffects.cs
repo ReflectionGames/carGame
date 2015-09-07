@@ -70,13 +70,15 @@ namespace UnityStandardAssets.Vehicles.Car
         public IEnumerator StartSkidTrail()
         {
             skidding = true;
-            m_SkidTrail = Instantiate(SkidTrailPrefab);
-            while (m_SkidTrail == null)
-            {
-                yield return null;
-            }
-            m_SkidTrail.parent = transform;
-            m_SkidTrail.localPosition = -Vector3.up*m_WheelCollider.radius;
+			if (QualitySettings.GetQualityLevel() > 0) {
+				m_SkidTrail = Instantiate(SkidTrailPrefab);
+				while (m_SkidTrail == null)
+				{
+					yield return null;
+				}
+				m_SkidTrail.parent = transform;
+				m_SkidTrail.localPosition = -Vector3.up*m_WheelCollider.radius;
+			}
         }
 
 
@@ -86,9 +88,11 @@ namespace UnityStandardAssets.Vehicles.Car
             {
                 return;
             }
-            skidding = false;
-            m_SkidTrail.parent = skidTrailsDetachedParent;
-            Destroy(m_SkidTrail.gameObject, 10);
+			skidding = false;
+			if (QualitySettings.GetQualityLevel () > 0) {
+				m_SkidTrail.parent = skidTrailsDetachedParent;
+				Destroy (m_SkidTrail.gameObject, 10);
+			}
         }
     }
 }
